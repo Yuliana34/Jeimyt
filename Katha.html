@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Asthethick — Skincare & Velas</title>
+<style>
+:root{
+    --bg:hwb(310 81% 9%);
+    --card:hwb(272 80% 5%);
+    --accent1:hsl(335, 59%, 79%);
+    --accent2:hsl(198, 57%, 77%);
+    --text:#2a2a2a
+}
+body{
+    margin:0;font-family:Inter, system-ui, sans-serif;
+    background:linear-gradient(135deg,var(--bg),#071029);
+    color:var(--text);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    text-align:center
+}
+header{
+    padding:28px 36px;
+    text-align:center
+}
+
+h1{
+    margin:0;font-size:2rem;
+    letter-spacing:1px
+}
+.tag{
+    display:inline-block;
+    margin-top:8px;
+    padding:6px 12px;
+    border-radius:999px;
+    background:linear-gradient(90deg,var(--accent1),var(--accent2));
+    color:#041025;
+    font-weight:700
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:28px;
+    max-width:1000px;
+    margin:24px auto
+}
+.card{background:linear-gradient(180deg, #09f7ff05, rgba(255,255,255,0.01));
+    padding:16px;
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(2,6,23,0.6);
+    border:1px solid rgba(255,255,255,0.03)
+}
+.pic{
+    height:140px;
+    border-radius:10px;
+    background:linear-gradient(135deg,var(--accent2),var(--accent1));
+    display:flex;align-items:center;
+    justify-content:center;
+    font-weight:700
+}
+.price{
+    font-weight:800
+}
+footer{
+    max-width:1000px;
+    margin:20px auto;text-align:center;
+    padding:16px;
+    color:#70b1ffb3
+}
+.cta{
+    display:inline-block;margin-top:12px;padding:10px 18px;
+    border-radius:10px;
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.08)}
+</style>
+
+</head>
+<body>
+<header>
+<h1>Asthethick</h1>
+<div class="tag">Skincare • Velas artesanales</div>
+</header>
+
+
+<main class="grid">
+<article class="card">
+<div class="pic">Serum Glow</div>
+<h3>Serum Glow — 30 ml</h3>
+<p>Un serum ligero con vitamina C para iluminar y renovar.</p>
+<img src="https://www.saludteca.es/wp-content/uploads/Serum-de-vitamina-C-Unsplash-Rafly-Alfaridzy.jpg" alt="serum1" height="200" width="200">
+<div class="price">$28.000 COP</div>
+<button class="cta">Agregar</button>
+</article>
+
+
+<article class="card">
+<div class="pic">Vela Rosa</div>
+<h3>Vela Aroma Rosa</h3>
+<p>Vela vegana con aroma floral, cera de soja y mecha de algodón.</p>
+<img src="https://cdn.manomano.com/images/images_products/743659/P/115560212_4.jpg" alt="serum1" height="200" width="200">
+<div class="price">$38.000 COP</div>
+<button class="cta">Agregar</button>
+</article>
+
+
+<article class="card">
+<div class="pic">Crema</div>
+<h3>Crema Night Repair</h3>
+<p>Crema nocturna nutritiva, ideal para piel seca y mixta.</p>
+<img src="https://dermatodo.com/3794-thickbox_default/cetaphil-healthy-renew-crema-de-noche-50-g.jpg" alt="serum1" height="200" width="200">
+<div class="price">$45.000 COP</div>
+<button class="cta">Agregar</button>
+</article>
+
+
+<article class="card">
+<div class="pic">Pack</div>
+<h3>Pack Relax</h3>
+<p>Serum + Vela — perfecto para regalar o consentirte.</p>
+<img src="https://tse3.mm.bing.net/th/id/OIP.1j4sxSiY67WZEgj-nKMH5AHaHa?pid=Api&P=0&h=180" alt="serum1" height="200" width="200">
+<div class="price">$60.000 COP</div>
+<button class="cta">Agregar</button>
+</article>
+</main>
+
+
+<footer>
+<div>¿Listo para brillar? — <strong>Asthethick</strong></div>
+<div style="margin-top:8px;">Síguenos en redes • Envíos en Colombia</div>
+</footer>
+</body>
+</html>
+'''
